@@ -1,0 +1,201 @@
+{
+    "algorithm": "RandomForestClassifier",
+    "algorithmType": "Classification",
+    "author": "1046",
+    "createdAt": 1556897720716,
+    "features": [
+        {
+            "name": "CUSTOMER_INTERNET_BANKING_INDICATOR",
+            "sample": 1.0,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_SUMMARY_FUNDS_UNDER_MANAGEMENT",
+            "sample": 150000.0,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_SUMMARY_ASSETS",
+            "sample": 138967.0,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_SUMMARY_TOTAL_AMOUNT_OF_ALL_FEES",
+            "sample": 4361.7412046559,
+            "type": "float"
+        },
+        {
+            "name": "NUM_ACCOUNTS_WITH_INVESTMENT_OBJECTIVE_INCOME",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_SUMMARY_AVERAGE_SENTIMENT_SCORE",
+            "sample": 3.0,
+            "type": "float"
+        },
+        {
+            "name": "NUM_ACCOUNTS_WITH_INVESTMENT_OBJECTIVE_GROWTH",
+            "sample": 1.0,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_SUMMARY_TOTAL_AMOUNT_OF_DEPOSITS",
+            "sample": 595.6085470162,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_SUMMARY_NUMBER_OF_ACCOUNTS",
+            "sample": 3.0,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_FAMILY_SIZE",
+            "sample": 3.0,
+            "type": "float"
+        },
+        {
+            "name": "NUM_ACCOUNTS_WITH_INVESTMENT_OBJECTIVE_SECURE_GROWTH",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_SUMMARY_TOTAL_AMOUNT_OF_DEPOSITS_mean",
+            "sample": 922.5211245636,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_SUMMARY_TOTAL_AMOUNT_OF_DEPOSITS_std",
+            "sample": 365.3264796192,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_SUMMARY_TOTAL_AMOUNT_OF_DEPOSITS_std_norm",
+            "sample": 0.3960087958,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_SUMMARY_TOTAL_AMOUNT_OF_DEPOSITS_current_vs_mean",
+            "sample": 0.6456313369,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_EMPLOYMENT_STATUS_Homemaker",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_EMPLOYMENT_STATUS_Retired",
+            "sample": 1.0,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_EMPLOYMENT_STATUS_Selfemployed",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_EMPLOYMENT_STATUS_Unemployed",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_URBAN_CODE_Rural",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_URBAN_CODE_Urban",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_EDUCATION_LEVEL_High School",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_EDUCATION_LEVEL_PhD",
+            "sample": 1.0,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_EDUCATION_LEVEL_Professional",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_EDUCATION_LEVEL_University",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_MARKET_GROUP_Gifting",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_MARKET_GROUP_Spending",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_MARKET_GROUP_Starting",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_AGE_RANGE_30 to 40",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_AGE_RANGE_40 to 55",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_AGE_RANGE_55 to 65",
+            "sample": 1.0,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_AGE_RANGE_65 and over",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_GENDER_Male",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_MARITAL_STATUS_Married",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_MARITAL_STATUS_Single",
+            "sample": 1.0,
+            "type": "float"
+        }
+    ],
+    "id": 1556897720716,
+    "isPublished": false,
+    "labelColumns": [
+        {
+            "name": "TARGET",
+            "type": "int"
+        }
+    ],
+    "latestModelVersion": 4,
+    "learningType": "Supervised",
+    "name": "CHURN_Model",
+    "params": {},
+    "publishedBy": "",
+    "publishedModelVersion": -1,
+    "runtime": "Python36",
+    "serialization": "joblib",
+    "source": "",
+    "type": "scikit-learn-0.20"
+}
